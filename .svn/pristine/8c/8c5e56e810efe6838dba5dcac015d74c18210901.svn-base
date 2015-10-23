@@ -1,0 +1,407 @@
+
+body {
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size: 16px;
+
+}
+
+/*Push logo into bottom navbar*/
+.myLogo {
+	margin-top:20px;
+}
+
+/*Config logo*/
+.navbar-brand {
+    float: left;
+    font-size: 18px;
+    height: inherit;
+    line-height: 2px;
+    padding: 2px;
+    padding-left: 30px;
+}
+
+
+
+/*Change height navbar menu*/
+.navbar-nav {
+	height: 104px;
+}
+
+#menuBar {
+	width: inherit;
+	padding: 0;
+}
+.navbar li {
+	height: inherit;
+}
+
+
+
+.nav > li > a {
+	height: inherit;
+	vertical-align: baseline;
+	padding-top: 40px;
+	/*Change line-height if you want change size navbar*/
+	line-height: 80px;
+	font-weight: bold;
+	width: auto;
+	text-align: center;
+	font-size: 18px;
+	min-width: 100px;
+
+}
+
+/*background link active*/
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+ 	background-color: #FFCD61;
+ }
+
+ .arrow-fish::after {
+	content: url('../img/arrow-superfish.png');	
+ }
+
+/*Change margin for menu*/
+.navbar-default {
+ 	background-color: white;
+ 	border: none;
+ 	border-bottom: 4px solid #060606;
+ 	margin: 0 23.5px;
+ }
+ /*Change margin for body by #body-wrap*/
+
+ .nav {
+ 	float: right;
+ 	border: solid #D6D7D7;
+ 	border-width: 0 0 0 1px;
+ }
+
+ .menu-border {
+ 	border: solid #D6D7D7;
+ 	border-width: 0 0 0 1px;
+ }
+
+  #menu-border-last {
+ 	border: solid #D6D7D7;
+ 	border-width: 0 1px 0 1px;
+ }
+
+li {
+ 	display: list-item;
+
+}
+
+ #myNavbar {
+ 	width: inherit;
+ 	padding: 0px;
+ }
+
+/*Config dropdown*/
+.dropdown li {
+	height: 25px;
+}
+
+/*Config slide part*/
+#slide-part > .row {
+	margin: inherit;
+}
+
+#slide-part .carousel-inner > .item > a {
+	height: inherit;	
+}
+
+/*Change picture's height follow parent div*/
+#slide-part .carousel-inner > .item > a > img {
+	width: 100%;
+	height: inherit;
+}
+
+#carousel-main {
+	border-right: 1px solid black;
+}
+
+#carousel-main .carousel-caption {
+	background-color: rgba(0,0,0,.4);
+	right: 0;
+	left: 0;
+	padding-bottom: 0;
+	margin-bottom: -20px;
+	padding: 0;
+	text-align: left;
+	padding-left: 20px;
+	height: 130px;
+	padding-top: 20px;
+
+}
+
+#slide-part > .row > .col-md-8 .carousel-inner {
+	height: 333px;
+}
+
+.item {
+	height: inherit;
+}
+
+#carousel-main .carousel-caption > span {
+	margin-top: 100px;
+}
+
+a.title-slide {
+	color: orange;
+	padding-top: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+#carousel-main .carousel-caption > h3 {
+	margin: 0;
+
+}
+
+#slide-part {
+	margin-right: 4px;
+}
+
+#slide-part .col-md-8 {
+	padding-left: 8px;
+	padding-right: 0px;
+}
+
+
+/*Config horizon menu*/
+#horizon-menu {
+	padding: 0 0 0 0;
+	background-color: #000;
+	max-height: 333px;
+}
+
+#horizon-menu > .list-group > .list-group-item > a {
+	opacity: 0.5;
+    filter: Alpha(opacity=50); /* IE8 and earlier */
+}
+
+
+#horizon-menu > .list-group > .list-group-item > a > img {
+	width: 100%;
+	
+}
+
+#horizon-menu > .list-group > .list-group-item > a:hover {
+	opacity: 1;
+	filter: Alpha(opacity=100); /* IE8 and earlier */
+}
+#horizon-menu .list-group-item {
+	padding: 0;
+	height: 110px;
+	background: transparent;
+	clear: both;
+	border: solid black;
+	border-width: 1px 0 0 0;
+}
+
+#horizon-menu .carousel-caption {
+	/*background-color: rgba(0,0,0,.4);*/
+	right: 0;
+	left: 0;
+	padding-bottom: 0;
+	margin-bottom: -20px;
+	padding: 0;
+	text-align: left;
+	padding-left: 20px;
+	padding-top: 20px;
+
+}
+
+#horizon-menu .carousel-caption > h4 {
+	/*background-color: rgba(0,0,0,.4);*/
+	color: orange;
+
+}
+
+/*Config content part*/
+#content {
+	margin-right: 20px;
+}
+
+
+.container-fluid#content {
+	padding-right: 17px;
+	padding-left: 17px;
+}
+
+#content .content-caption {
+	background: url('../img/strips.png') repeat;
+	padding: 5px 0 5px 30px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+#content .col-md-8 {
+	border-right: 3px solid #EFEFEF;
+}
+
+/*Config latest new part*/
+#latest-new a > img {
+	width: 100%;
+}
+
+/*Config for right-side content*/
+#right-side-content {
+	padding: 20px 0;
+	background: #F7F7F7;
+	border-bottom: 1px solid #EFEFEF;
+
+}
+
+/*Remove border-left of search button */
+#right-side-content .input-group-btn > button {
+	border-left: none;
+}
+
+/*Padding left and right search textbox*/
+#right-side-content form, 
+#right-side-content .dynamic-pill {
+	padding: 0 40px;
+}
+
+
+#right-side-content .dynamic-pill > ul > li {
+	height: 30px;
+}
+
+#right-side-content .dynamic-pill > ul > li > a {
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	display: inline;
+	padding: 5px 5px;
+	background-color: #E4E4E4;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #858585;
+}
+
+#right-side-content .dynamic-pill > .nav-pills {
+	border-left: none;
+}
+
+#right-side-content .dynamic-pill > li {
+	display: inline;
+	width: 10px;
+}
+
+#right-side-content .nav-justified > li {
+	width: 0;
+}
+
+#right-side-content .nav-justified > li.active > a {
+	background-color: orange;
+}
+
+#subcrible, 
+#twitter,
+#flicker {
+	margin: 0 40px;
+}
+
+#subcrible .row {
+	width: inherit;
+	margin: 0;
+}
+
+h4.right-side-title {
+	font-weight: bold;
+}
+
+.date-format {
+	padding-bottom: 5px;
+	color:#A4A4A4;
+	text-transform: uppercase;
+	font-size:12px;
+}
+
+/*Config twitter part*/
+#twitter .chatbox > .list-group > li {
+	border: none;
+	background-color: inherit;
+}
+
+#twitter .chatbox > .list-group > li > p span::before {
+	content: '@';
+}
+
+#twitter .twitter-name {
+	color: #5898CB;
+}
+
+#twitter .date-format {
+	text-transform: lowercase;
+}
+
+#flicker > p {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#flicker .gallery > a > img {
+	margin: 0;
+	padding: 0;
+
+}
+
+/*Config footer*/
+#footer-wrap > div > .row {
+	padding-top: 20px;
+}
+
+
+#footer-wrap > div > .row ul > li {
+	background-color: black;
+	border-left: none;
+	border-right: none;
+	border-color: #2C2F24;
+}
+
+#footer-wrap hr {
+	border-color: #2C2F24;
+}
+
+#footer-wrap > div > .row ul > li > a {
+	color: orange;
+}
+
+#footer-wrap > div > .row ul > li:first-of-type {
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#footer-recent-comments > li {
+	color: #D8D8D8;
+}
+
+#copyright div.col-md-6 > h4 > a {
+	color: #434543;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
